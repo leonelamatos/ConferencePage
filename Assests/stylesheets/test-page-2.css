@@ -59,6 +59,12 @@ h2, p {
 	font: 13px/20px "Helvetica Neue", Helvetica, Arial, san-serif;
 }
 
+h2 {
+	font-size: 50px;
+	font-weight: bold;
+	
+}
+
 a { 
 	color: #0087cc;
 }
@@ -73,6 +79,11 @@ h2 {
 	margin-top: 6px;
 }
 
+h2 a {
+	text-decoration: none;
+	text-shadow: 2px 2px 1px rgba(0,0,0,.2);
+}
+
 .byline {
 	color: 9799a7;
 	font-family: georgia, times, "times new roman", serif;
@@ -80,6 +91,14 @@ h2 {
 	margin-bottom: 18px;
 }
 
-p:hover {
-		font: 20px/30px arial;
+.intro {
+	text-indent: 15px;
 }
+
+.intro a {
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
