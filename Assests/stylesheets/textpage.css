@@ -1,16 +1,16 @@
 code {
-    background: #2db34a;
-    border-radius: 6px;
-    color: #fff;
-    display: block;
-    font: 14px/24px "source code pro", inconsolata, "lucida console", Terminal, "courier New", Courier;
-    padding: 24px 15px;
-    text-align: center;
+	background: #2db34a;
+	border-radius: 6px;
+	color: #fff;
+	display: block;
+	font: 14px/24px "source code pro", inconsolata, "lucida console", Terminal, "courier New", Courier;
+	padding: 24px 15px;
+	text-align: center;
 }
 
 .default {
-    background: none;
-    color: #666;
+	background: none;
+	color: #666;
 }
 
 .group,
@@ -18,39 +18,39 @@ header,
 section,
 aside,
 footer {
-    margin: 0 1.5% 24px 1.5%
+	margin: 0 1.5% 24px 1.5%
 }
 
 section {
-    float: left;
-    width: 63%;
+	display: inline-block;
+	width: 30%;
 
 }
 
 aside {
-    float: right;
-    width: 30%;
+	float: right;
+	width: 30%;
 
 }
 
 footer {
-    clear: both;
-    margin-bottom: 0;
+	clear: both;
+	margin-bottom: 0;
 }
 
 .group:before,
 .group:after {
-    content: "";
-    display: table;
+	content: "";
+	display: table;
 }
 
 .group:after {
-    clear: both;
+	clear: both;
 }
 
 .group {
-    background: #eaeaed;
-    border-radius: 6px;
-    clear: both;
-    *zoom: 1;
+	background: #eaeaed;
+	border-radius: 6px;
+	clear: both;
+	*zoom: 1;
 }
