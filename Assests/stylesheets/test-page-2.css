@@ -121,7 +121,8 @@ h2 a {
 /*============= Tables ==================*/
 
 .tb-border {
-	border: 0;
+	border: 1px solid #cecfd5;
+	border-radius: 0;
 	width: 100%;
 }
 table {
