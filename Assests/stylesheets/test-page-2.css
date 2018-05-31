@@ -116,3 +116,21 @@ h2 a {
 	width: 300px;
 	height: 20px;
 }
+
+
+/*============= Tables ==================*/
+
+.tb-border {
+	border: 0;
+	width: 100%;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 4px;
+}
+
+th,
+td {
+	border: 1px solid #cecfd5;
+	padding: 10px 15px;
+}
